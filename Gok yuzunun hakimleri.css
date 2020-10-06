@@ -1,0 +1,41 @@
+body{
+    background: black;
+}
+::selection{
+    background-color: saddlebrown;
+    color: black;
+}
+img{
+    float: left;
+    padding: 0px 10px 10px 0 px;
+}
+h1,h2,h3{
+    color: red;
+    text-align: center;
+    background-color: blue;
+    margin: 40px 20px;
+    padding: 15px;
+    font-size: 35px;
+}
+p{
+    background-color: lime;
+    color: purple;
+    padding: 20px;
+    margin: 20px 0px;
+}
+summary+p{
+    background-color:rgb(75, 6, 6);
+    color: lime;
+}
+summary{
+    color: maroon;
+    background-color: mediumorchid;
+    text-align: center;
+    margin: 10px 15px;
+    padding: 20px;
+}
+button{
+    font-size: 30px;
+    background-color: yellow;
+    margin: 10px 20px;
+}
